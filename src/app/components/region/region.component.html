@@ -1,0 +1,31 @@
+
+    <header class="header">
+        <div class="cont_logo">
+
+            <img id="btn_volver" routerLink="" src="../assets/flecha_volver.png" class="logo" alt="">
+            <p routerLink="">VOLVER</p>
+
+        </div>
+
+    </header>
+    <main class="main_region">
+        <div class="cont_region">
+            <h1 id="titulo_region">Region {{region}}</h1>
+            <img id="img_region" class="img_region" [src]="url_img" alt="">
+            <p>{{descripcion}}</p>
+        </div>
+
+        <div class="cont_resultados">
+            <h1>Resultados</h1>
+            <img src="../assets/torta.png" alt="">
+            <p>{{resultados}}</p>
+        </div>
+        <div class="cont_conclusiones">
+            <h1>Conclusiones</h1>
+            <img src="../assets/panchos.jfif" alt="">
+            <p>{{conclusiones}}</p>
+        </div>
+        <button id="btn_como" (click)="verMineria()" class="btnTomineria">Como se obtuvo esto?</button>
+    </main>
+
+    <app-grafico></app-grafico>

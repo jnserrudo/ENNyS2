@@ -1,0 +1,32 @@
+<div class="container carrusel">
+  <div class="mySlides cont_img_region">
+      <img id="Centro" (click)="verRegion('Centro')" class="img_region" src="../assets/centro.png" alt="imagen-1">
+  </div>
+  <div class="mySlides cont_img_region">
+      <img id="Noa" (click)="verRegion('Noa')" class="img_region" src="../assets/noa.png" alt="">
+  </div>
+  <div class="mySlides cont_img_region">
+      <img id="Nea" (click)="verRegion('Nea')" class="img_region" src="../assets/nea.png" alt="">
+  </div>
+  <div class="mySlides cont_img_region">
+    <img id="Cuyo" (click)="verRegion('Cuyo')" class="img_region" src="../assets/cuyo.png" alt="">
+  </div>
+  <div class="mySlides cont_img_region">
+    <img id="GBA" (click)="verRegion('GBA')" class="img_region" src="../assets/gba.png" alt="">
+  </div>
+  <div class="mySlides cont_img_region">
+    <img id="Patagonia" (click)="verRegion('Patagonia')" class="img_region" src="../assets/patagonia.png" alt="">
+  </div>
+
+  <a class="prev" (click)="plusSlides(-1)">&#10094;</a>
+  <a class="next" (click)="plusSlides(1)">&#10095;</a>
+
+  <div class="elements">
+      <span class="quadrate" (click)="currentSlide(1)"></span>
+      <span class="quadrate" (click)="currentSlide(2)"></span>
+      <span class="quadrate" (click)="currentSlide(3)"></span>
+      <span class="quadrate" (click)="currentSlide(4)"></span>
+      <span class="quadrate" (click)="currentSlide(5)"></span>
+      <span class="quadrate" (click)="currentSlide(6)"></span>
+  </div>
+</div>
