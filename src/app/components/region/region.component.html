@@ -17,7 +17,11 @@
 
         <div class="cont_resultados">
             <h1>Resultados</h1>
-            <img src="../assets/torta.png" alt="">
+            <app-grafico [tgrafico]="'burbuja'" [region]="region" ></app-grafico>
+            <app-grafico [tgrafico]="'linea'" [region]="region" [valory]="'confianza'"></app-grafico>
+            <app-grafico [tgrafico]="'linea'" [region]="region" [valory]="'soporte'"></app-grafico>
+
+
             <p>{{resultados}}</p>
         </div>
         <div class="cont_conclusiones">
@@ -28,4 +32,3 @@
         <button id="btn_como" (click)="verMineria()" class="btnTomineria">Como se obtuvo esto?</button>
     </main>
 
-    <app-grafico></app-grafico>

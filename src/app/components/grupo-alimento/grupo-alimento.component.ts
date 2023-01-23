@@ -16,7 +16,7 @@ export class GrupoAlimentoComponent {
   constructor(private aRoute:ActivatedRoute){
     this.aRoute.queryParams.pipe(filter(params=>params['alimento'])).subscribe(params=>{
       this.alimento=params['alimento']
-      // this.url_img=`../assets/${this.alimento.toLocaleLowerCase()}.png`
+      this.url_img=`../assets/${this.alimento.toLocaleLowerCase()}.jfif`
 
     } )
   }

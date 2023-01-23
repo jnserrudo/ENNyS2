@@ -17,6 +17,9 @@ import { MineriaComponent } from './components/mineria/mineria.component';
 import { InfoRegionesComponent } from './components/info-regiones/info-regiones.component';
 import { InfoAlimentosComponent } from './components/info-alimentos/info-alimentos.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +39,8 @@ import { InfoAlimentosComponent } from './components/info-alimentos/info-aliment
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxChartsModule
+    NgxChartsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
