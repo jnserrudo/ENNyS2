@@ -16,28 +16,31 @@
         </div>
 
         <div class="cont_resultados">
-            <h1>Resultados</h1>
+            <h1>Grupos de Alimentos</h1>
             <p class="txt_info">{{resultados}}</p>
             <table class="table">
               <thead>
-                  <th>Grupos de Alimentos</th>
+                  <th>Premisas</th>
+                  <th>Conclusión</th>
               </thead>
               <tbody>
-                  <tr *ngFor="let pre of premisas">
-                      <td>{{pre.startsWith('YOGUR_POSTRESdLECHE')?pre.replace('YOGUR_POSTRESdLECHE','YOGURES O POSTRES DE LECHE'):pre}}</td>
+                  <tr *ngFor="let regla of reglas">
+                      <td>{{regla[0].startsWith('YOGUR_POSTRESdLECHE')?regla[0].replace('YOGUR_POSTRESdLECHE','YOGURES Y POSTRES DE LECHE'):regla[0]}}</td>
+                      <td>{{regla[1].startsWith('YOGUR_POSTRESdLECHE')?regla[1].replace('YOGUR_POSTRESdLECHE','YOGURES Y POSTRES DE LECHE'):regla[1]}}</td>
+
                   </tr>
               </tbody>
           </table>
-            <app-grafico [tgrafico]="'burbuja'" [region]="region" ></app-grafico>
+            <!-- <app-grafico [tgrafico]="'burbuja'" [region]="region" ></app-grafico>
             <app-grafico [tgrafico]="'linea'" [region]="region" [valory]="'confianza'"></app-grafico>
-            <app-grafico [tgrafico]="'linea'" [region]="region" [valory]="'soporte'"></app-grafico>
+            <app-grafico [tgrafico]="'linea'" [region]="region" [valory]="'soporte'"></app-grafico> -->
 
 
 
         </div>
         <div class="cont_conclusiones">
             <h1>Conclusiones</h1>
-            <img src="../assets/conclusion.png" alt="">
+            <img src="../assets/conclusion.png" class="conclusion" alt="">
             <p>{{conclusiones}}</p>
         </div>
         <button id="btn_como" (click)="verMineria()" class="btnTomineria">Como se obtuvo esto?</button>

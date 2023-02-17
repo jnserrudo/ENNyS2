@@ -381,7 +381,7 @@ h4 ~ p{
 }
 
 .conclusion{
-  height: 300px;
+  height: 100px;
 
 }
 
@@ -395,6 +395,20 @@ h4 ~ p{
 
 .cont_info_regiones > * {
   text-align: center;
+}
+
+.img_mineria{
+  width: 20%;
+  height: 20%;
+}
+.cuerpo_acordion{
+  display: flex;
+  justify-content: space-around;
+}
+.prep_datos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -421,11 +435,19 @@ h4 ~ p{
   }
   .section{
     flex-direction: column;
+    align-items: center;
   }
 
 .cont_grafico{
 
 }
+.cuerpo_acordion{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 }
 
 
