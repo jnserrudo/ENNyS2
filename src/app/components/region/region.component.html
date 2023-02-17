@@ -11,22 +11,33 @@
     <main class="main_region">
         <div class="cont_region">
             <h1 id="titulo_region">Region {{region}}</h1>
-            <img id="img_region" class="img_region" [src]="url_img" alt="">
-            <p>{{descripcion}}</p>
+            <img id="img_region" class="img_region img_info" [src]="url_img" alt="">
+            <p class="txt_info">{{descripcion}}</p>
         </div>
 
         <div class="cont_resultados">
             <h1>Resultados</h1>
+            <p class="txt_info">{{resultados}}</p>
+            <table class="table">
+              <thead>
+                  <th>Grupos de Alimentos</th>
+              </thead>
+              <tbody>
+                  <tr *ngFor="let pre of premisas">
+                      <td>{{pre.startsWith('YOGUR_POSTRESdLECHE')?pre.replace('YOGUR_POSTRESdLECHE','YOGURES O POSTRES DE LECHE'):pre}}</td>
+                  </tr>
+              </tbody>
+          </table>
             <app-grafico [tgrafico]="'burbuja'" [region]="region" ></app-grafico>
             <app-grafico [tgrafico]="'linea'" [region]="region" [valory]="'confianza'"></app-grafico>
             <app-grafico [tgrafico]="'linea'" [region]="region" [valory]="'soporte'"></app-grafico>
 
 
-            <p>{{resultados}}</p>
+
         </div>
         <div class="cont_conclusiones">
             <h1>Conclusiones</h1>
-            <img src="../assets/panchos.jfif" alt="">
+            <img src="../assets/conclusion.png" alt="">
             <p>{{conclusiones}}</p>
         </div>
         <button id="btn_como" (click)="verMineria()" class="btnTomineria">Como se obtuvo esto?</button>

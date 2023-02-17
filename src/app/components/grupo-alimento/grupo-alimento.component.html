@@ -11,19 +11,19 @@
   <main class="main_region">
       <div class="cont_region">
           <h1 id="titulo_region">{{alimento}}</h1>
-          <img id="img_region" class="img_region"  [src]="url_img" alt="">
-          <p>{{descripcion}}</p>
+          <img id="img_region" class="img_region img_info"  [src]="url_img" alt="">
+          <p class="txt_info">{{descripcion}}</p>
       </div>
 
       <div class="cont_resultados">
           <h1>Resultados</h1>
-          <app-grafico [alimento]="alimento" [verAlimentosxRegion]="true"></app-grafico>
-          <p>{{resultados}}</p>
+          <app-grafico [alimento]="alimento_grafico" [verAlimentosxRegion]="true"></app-grafico>
+          <p class="txt_info">{{resultados}}</p>
       </div>
       <div class="cont_conclusiones">
           <h1>Conclusiones</h1>
           <img src="../assets/conclusion.png" class="conclusion" alt="">
-          <p>{{conclusiones}}</p>
+          <p class="txt_info">{{conclusiones}}</p>
       </div>
       <button routerLink="../mineria" id="btn_como" class="btnTomineria">Como se obtuvo esto?</button>
   </main>

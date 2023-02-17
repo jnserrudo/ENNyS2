@@ -124,7 +124,15 @@ export class GraficoComponent {
         this.data=for_alimentos
         this.single=for_alimentos
         console.log(this.data,this.single)
-        this.view=[500,600]
+        console.log(window.innerWidth)
+        if(window.innerWidth>800){
+          this.view=[800,400]
+          console.log("mayor")
+
+        }else{
+          this.view=[500,400]
+          console.log("menor")
+        }
 
       }
 
@@ -243,8 +251,8 @@ export class GraficoComponent {
   yAxisLabelBurbuja: string = 'Soporte';
   showYAxisLabelBurbuja: boolean = true;
   xAxisLabelBurbuja: string = 'Premisas';
-  maxRadius: number = 15;
-  minRadius: number = 5;
+  maxRadius: number = 10;
+  minRadius: number = 1;
   yScaleMin: number = 30;
   yScaleMax: number = 50;
 

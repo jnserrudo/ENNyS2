@@ -11,7 +11,7 @@ export class AlimentosComponent {
   constructor(private router:Router){
 
   }
-  verAlimento(alim:string){
-    this.router.navigate(['alimento'],{queryParams:{alimento:alim}})
+  verAlimento(alim:string,des:string,res:string,con:string){
+    this.router.navigate(['alimento'],{queryParams:{alimento:alim,descripcion:des, resultados:res, conclusiones:con}})
   }
 }

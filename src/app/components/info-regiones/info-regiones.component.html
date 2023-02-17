@@ -9,23 +9,20 @@
 </header>
 
 <main class="main_mineria">
-  <p class="subtitulo">Regiones de Argentina segun la ENNyS2</p>
+  <p class="subtitulo">Las regiones de la Argentina</p>
 
 
   <section class="section">
-      <div class="cont_info_mineria">
-          <h1 class="section__titulo">Reglas de Asociación</h1>
-          <p>Las reglas de asociación</p>
-          <h4 class="section__subtitulo">Aplicado a la ENNyS 2</h4>
-          <p>En la ENNyS 2 se realizaron tareas de reglas de asociacion, sobre los distintos grupos alimenticios que categorizaba la misma entrevista</p>
+      <div class="cont_info_regiones">
+          <p class="txt_info">En el siguiente grafico se muestra las confianza mas alta obtenida para cada una de las regiones, significando para cada una, la probabilidad de que al consumir cierta cantidad de determinado grupo alimenticio tambien se consuman ciertas cantidades de otros grupos de alimentos, demostrando las posibles relaciones e influencias entre los alimentos para cada una de las regiones.</p>
 
       </div>
-      <img src="../assets/mineria.jpg" alt="">
 
 
 
   </section>
   <app-grafico [verRegiones]="true" ></app-grafico>
 
+  <p class="txt_info">En la región del Noa se presenta un valor de confianza mas alto, mostrando que en la mejor asociación entre los grupos de alimentos existe un 91.409% de probabilidad de que al consumir ciertas cantidades de grupos de alimentos, tambien se consuman determinadas cantidades de otros grupos de alimentos.</p>
 
 </main>
