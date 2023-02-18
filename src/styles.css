@@ -418,7 +418,6 @@ h4 ~ p{
   background-size: 80% 80%;
   background-position:center;
   background-repeat:no-repeat;
-  color: white;
   background-color: var(--color_secundario)
 }
 .carnes{

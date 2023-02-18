@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./mineria.component.css']
 })
 export class MineriaComponent {
-
+  ngOnInit(){
+    window.scrollTo(0,0)
+  }
 }

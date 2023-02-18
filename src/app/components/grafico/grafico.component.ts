@@ -72,7 +72,8 @@ export class GraficoComponent {
 
 
     // -------------------------grafico de carta------------------------------
-    cardColor: string = '#232837';
+    // cardColor: string = '#232837';
+    cardColor: string = '000000';
     single?: any[];
 
   constructor() {
