@@ -28,6 +28,7 @@ export class RegionComponent {
     this.aRoute.queryParams.pipe(filter(params=>params['region'])).subscribe(params=>{
       this.region=params['region']
       this.url_img=`../assets/${this.region.toLocaleLowerCase()}.png`
+      this.resultados='En la siguiente tabla se puede visualizar la cantidad en gramos de grupos alimentos que pueden influir sobre otros, en la columna de las premisas, se tienen las cantidades de ciertos grupos de alimentos que al ser consumidas, existe una alta probabilidad de que los habitantes de la región, consuman una cantidad determinada de cierto grupo alimenticio especificada en la columna de las conclusiones.'
       switch(this.region){
         case 'Noa':
           this.descripcion=`En la región del Noa se pudo notar que al no consumir grasas, pero sí carnes, es muy probable que no se consuma pescados, pero si Opcionales y Misceláneos. Con el consumo de carnes, es muy probable que no se consuma pescados, pero si opcionales y misceláneos. Con el consumo de aceites, es muy probable que no se consuma pescados, pero si opcionales y misceláneos. Al no consumir grasas, pero sí dulces, es muy probable que no se consuma pescados, pero si opcionales y misceláneos. Al consumir verduras, es muy probable que no se consuma pescados, pero si opcionales y misceláneos.`

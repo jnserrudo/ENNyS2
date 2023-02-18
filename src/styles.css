@@ -290,6 +290,7 @@ h4 ~ p{
 .img_region{
   width: 400px !important;
   height: 380px;
+  cursor: pointer;
 
 }
 .img_info{
@@ -411,6 +412,86 @@ h4 ~ p{
   align-items: center;
 }
 
+/* ALIMENTOS */
+
+.carnes,.verduras,.bebidas,.legumbres,.grasas,.pescados,.huevos,.aceites,.yogur_postre,.queso,.opcionales_miscelaneos,.leche,.fruta,.dulce{
+  background-size: 80% 80%;
+  background-position:center;
+  background-repeat:no-repeat;
+  color: white;
+  background-color: var(--color_secundario)
+}
+.carnes{
+  background-image: url('./assets/carnes.png');
+
+}
+.verduras{
+  background-image: url('./assets/verduras.png');
+
+}
+.bebidas{
+  background-image: url('./assets/bebidas.png');
+
+}
+.legumbres{
+  background-image: url('./assets/legumbres.png');
+
+}
+
+.grasas{
+  background-image: url('./assets/grasas.png');
+
+}
+
+.pescados{
+  background-image: url('./assets/pescados.png');
+
+}
+
+.huevos{
+  background-image: url('./assets/huevos.png');
+
+}
+
+.aceites{
+  background-image: url('./assets/aceites.png');
+
+}
+
+.yogur_postre{
+  background-image: url('./assets/yogur_postres.png');
+
+}
+
+.queso{
+  background-image: url('./assets/quesos.png');
+
+}
+
+.opcionales_miscelaneos{
+  background-image: url('./assets/opcionales_miscelaneos.png');
+
+
+}
+
+.leche{
+  background-image: url('./assets/leche.png');
+
+}
+
+.fruta{
+  background-image: url('./assets/frutas.png');
+
+}
+
+.dulce{
+  background-image: url('./assets/dulces.png');
+
+}
+
+
+
+/* ALIMENTOS */
 
 /*------------------------------- MEDIA QUERYSSSSS----------------------------------- */
 @media screen and (max-width:900px) {
