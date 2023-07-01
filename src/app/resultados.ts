@@ -127,71 +127,71 @@ export let datos=[
     "resultados":
     [
       {
-       "Premises": "GRASAS = [0.0 - 0.0], CARNES = [0.0 - 223.1]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], OPCIONALES_MISCELANEOS = [0.0 - 50.0]",
+       "Premises": "GRASAS (Cantidad en gramos) = [0.0 - 0.0], CARNES (Cantidad en gramos) = [0.0 - 223.1]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 50.0]",
        "Support": 0.37185034359888,
        "Confidence": 0.893577981651376,
        "Lift": 1.15072693867855
       },
       {
-       "Premises": "GRASAS = [0.0 - 0.0], ACEITES = [0.0 - 27.7]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], OPCIONALES_MISCELANEOS = [0.0 - 50.0]",
+       "Premises": "GRASAS (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 27.7]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 50.0]",
        "Support": 0.396029524051921,
        "Confidence": 0.891179839633447,
        "Lift": 1.14763867254009
       },
       {
-       "Premises": "GRASAS = [0.0 - 0.0], ACEITES = [0.0 - 27.7]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 50.0]",
+       "Premises": "GRASAS (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 27.7]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 50.0]",
        "Support": 0.406210231611097,
        "Confidence": 0.914089347079037,
        "Lift": 1.14268439219648
       },
       {
-       "Premises": "GRASAS = [0.0 - 0.0], CARNES = [0.0 - 223.1]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 50.0]",
+       "Premises": "GRASAS (Cantidad en gramos) = [0.0 - 0.0], CARNES (Cantidad en gramos) = [0.0 - 223.1]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 50.0]",
        "Support": 0.380249427335199,
        "Confidence": 0.913761467889908,
        "Lift": 1.14227451712995
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], GRASAS = [0.0 - 0.0], CARNES = [0.0 - 223.1]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 50.0]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], GRASAS (Cantidad en gramos) = [0.0 - 0.0], CARNES (Cantidad en gramos) = [0.0 - 223.1]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 50.0]",
        "Support": 0.37185034359888,
        "Confidence": 0.913125,
        "Lift": 1.14147888164174
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], GRASAS = [0.0 - 0.0], ACEITES = [0.0 - 27.7]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 50.0]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], GRASAS (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 27.7]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 50.0]",
        "Support": 0.396029524051921,
        "Confidence": 0.912609970674486,
        "Lift": 1.14083505401847
       },
       {
-       "Premises": "CARNES = [0.0 - 223.1]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], OPCIONALES_MISCELANEOS = [0.0 - 50.0]",
+       "Premises": "CARNES (Cantidad en gramos) = [0.0 - 223.1]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 50.0]",
        "Support": 0.426317129040468,
        "Confidence": 0.8834388185654,
        "Lift": 1.13766998300342
       },
       {
-       "Premises": "ACEITES = [0.0 - 27.7]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], OPCIONALES_MISCELANEOS = [0.0 - 50.0]",
+       "Premises": "ACEITES (Cantidad en gramos) = [0.0 - 27.7]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 50.0]",
        "Support": 0.453550521761262,
        "Confidence": 0.883052527254707,
        "Lift": 1.13717252690388
       },
       {
-       "Premises": "ACEITES = [0.0 - 27.7]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 50.0]",
+       "Premises": "ACEITES (Cantidad en gramos) = [0.0 - 27.7]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 50.0]",
        "Support": 0.466276406210231,
        "Confidence": 0.907829534192269,
        "Lift": 1.13485912817099
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], CARNES = [0.0 - 223.1]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 50.0]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], CARNES (Cantidad en gramos) = [0.0 - 223.1]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 50.0]",
        "Support": 0.426317129040468,
        "Confidence": 0.907367280606717,
        "Lift": 1.13428127442055
@@ -203,71 +203,71 @@ export let datos=[
     "resultados":
     [
       {
-       "Premises": "BEBIDAS_AGUA = [0.0 - 2619.2], ACEITES = [0.0 - 38.5]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], OPCIONALES_MISCELANEOS = [0.0 - 76.9]",
+       "Premises": "BEBIDAS_AGUA (Cantidad en gramos) = [0.0 - 2619.2], ACEITES (Cantidad en gramos) = [0.0 - 38.5]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 76.9]",
        "Support": 0.438333333333333,
        "Confidence": 0.904297994269341,
        "Lift": 1.1523797449096
       },
       {
-       "Premises": "GRASAS = [0.0 - 0.0], ACEITES = [0.0 - 38.5]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], OPCIONALES_MISCELANEOS = [0.0 - 76.9]",
+       "Premises": "GRASAS (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 38.5]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 76.9]",
        "Support": 0.458888888888888,
        "Confidence": 0.895392953929539,
        "Lift": 1.14103172890135
       },
       {
-       "Premises": "ACEITES = [0.0 - 38.5]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], OPCIONALES_MISCELANEOS = [0.0 - 76.9]",
+       "Premises": "ACEITES (Cantidad en gramos) = [0.0 - 38.5]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 76.9]",
        "Support": 0.540555555555555,
        "Confidence": 0.895124195032198,
        "Lift": 1.14068923968704
       },
       {
-       "Premises": "YOGUR_POSTRESdLECHE = [0.0 - 0.0], ACEITES = [0.0 - 38.5]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], OPCIONALES_MISCELANEOS = [0.0 - 76.9]",
+       "Premises": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 38.5]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 76.9]",
        "Support": 0.413333333333333,
        "Confidence": 0.894768490679494,
        "Lift": 1.14023595272431
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], BEBIDAS_AGUA = [0.0 - 2619.2], ACEITES = [0.0 - 38.5]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 76.9]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], BEBIDAS_AGUA (Cantidad en gramos) = [0.0 - 2619.2], ACEITES (Cantidad en gramos) = [0.0 - 38.5]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 76.9]",
        "Support": 0.438333333333333,
        "Confidence": 0.914252607184241,
        "Lift": 1.13925558527631
       },
       {
-       "Premises": "BEBIDAS_AGUA = [0.0 - 2619.2], ACEITES = [0.0 - 38.5]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 76.9]",
+       "Premises": "BEBIDAS_AGUA (Cantidad en gramos) = [0.0 - 2619.2], ACEITES (Cantidad en gramos) = [0.0 - 38.5]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 76.9]",
        "Support": 0.442777777777777,
        "Confidence": 0.913467048710601,
        "Lift": 1.13827669621258
       },
       {
-       "Premises": "GRASAS = [0.0 - 0.0], ACEITES = [0.0 - 38.5]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 76.9]",
+       "Premises": "GRASAS (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 38.5]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 76.9]",
        "Support": 0.465833333333333,
        "Confidence": 0.908943089430894,
        "Lift": 1.13263936377681
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], GRASAS = [0.0 - 0.0], ACEITES = [0.0 - 38.5]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 76.9]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], GRASAS (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 38.5]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 76.9]",
        "Support": 0.458888888888888,
        "Confidence": 0.908690869086908,
        "Lift": 1.13232507051328
       },
       {
-       "Premises": "YOGUR_POSTRESdLECHE = [0.0 - 0.0], ACEITES = [0.0 - 38.5]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 76.9]",
+       "Premises": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 38.5]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 76.9]",
        "Support": 0.419722222222222,
        "Confidence": 0.908598917618761,
        "Lift": 1.13221048924456
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], YOGUR_POSTRESdLECHE = [0.0 - 0.0], ACEITES = [0.0 - 38.5]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 76.9]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 38.5]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 76.9]",
        "Support": 0.413333333333333,
        "Confidence": 0.908424908424908,
        "Lift": 1.13199365535814
@@ -279,71 +279,71 @@ export let datos=[
     "resultados":
     [
       {
-       "Premises": "LEGUMBRES_CEREALES = [0.0 - 238.5]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], OPCIONALES_MISCELANEOS = [0.0 - 46.2]",
+       "Premises": "LEGUMBRES_CEREALES (Cantidad en gramos) = [0.0 - 238.5]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 46.2]",
        "Support": 0.412702630879617,
        "Confidence": 0.846782988004362,
        "Lift": 1.15997247319272
       },
       {
-       "Premises": "GRASAS = [0.0 - 0.0], LEGUMBRES_CEREALES = [0.0 - 238.5]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 46.2]",
+       "Premises": "GRASAS (Cantidad en gramos) = [0.0 - 0.0], LEGUMBRES_CEREALES (Cantidad en gramos) = [0.0 - 238.5]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 46.2]",
        "Support": 0.364868456019133,
        "Confidence": 0.865699873896595,
        "Lift": 1.15971115182374
       },
       {
-       "Premises": "LEGUMBRES_CEREALES = [0.0 - 238.5]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 46.2]",
+       "Premises": "LEGUMBRES_CEREALES (Cantidad en gramos) = [0.0 - 238.5]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 46.2]",
        "Support": 0.421472229604039,
        "Confidence": 0.864776444929116,
        "Lift": 1.15847410547108
       },
       {
-       "Premises": "ACEITES = [0.0 - 23.1]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 46.2]",
+       "Premises": "ACEITES (Cantidad en gramos) = [0.0 - 23.1]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 46.2]",
        "Support": 0.36088227478076,
        "Confidence": 0.863318499682136,
        "Lift": 1.15652100900814
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], LEGUMBRES_CEREALES = [0.0 - 238.5]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 46.2]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], LEGUMBRES_CEREALES (Cantidad en gramos) = [0.0 - 238.5]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 46.2]",
        "Support": 0.412702630879617,
        "Confidence": 0.86325736520289,
        "Lift": 1.15643911187557
       },
       {
-       "Premises": "GRASAS = [0.0 - 0.0], DULCES = [0.0 - 76.9]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 46.2]",
+       "Premises": "GRASAS (Cantidad en gramos) = [0.0 - 0.0], DULCES (Cantidad en gramos) = [0.0 - 76.9]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 46.2]",
        "Support": 0.372575073079989,
        "Confidence": 0.861179361179361,
        "Lift": 1.1536553706365
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], DULCES = [0.0 - 76.9]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 46.2]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], DULCES (Cantidad en gramos) = [0.0 - 76.9]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 46.2]",
        "Support": 0.43183630082381,
        "Confidence": 0.861155272919978,
        "Lift": 1.15362310145883
       },
       {
-       "Premises": "DULCES = [0.0 - 76.9]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 46.2]",
+       "Premises": "DULCES (Cantidad en gramos) = [0.0 - 76.9]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 46.2]",
        "Support": 0.441668881211799,
        "Confidence": 0.861139896373057,
        "Lift": 1.15360250268843
       },
       {
-       "Premises": "DULCES = [0.0 - 76.9]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], OPCIONALES_MISCELANEOS = [0.0 - 46.2]",
+       "Premises": "DULCES (Cantidad en gramos) = [0.0 - 76.9]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 46.2]",
        "Support": 0.43183630082381,
        "Confidence": 0.841968911917098,
        "Lift": 1.15337787242229
       },
       {
-       "Premises": "YOGUR_POSTRESdLECHE = [0.0 - 0.0], DULCES = [0.0 - 76.9]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 46.2]",
+       "Premises": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], DULCES (Cantidad en gramos) = [0.0 - 76.9]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 46.2]",
        "Support": 0.360616529364868,
        "Confidence": 0.860494610019023,
        "Lift": 1.15273806247831
@@ -355,71 +355,71 @@ export let datos=[
     "resultados":
     [
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], LEGUMBRES_CEREALES = [0.0 - 223.1]",
-       "Conclusion": "BEBIDAS_AGUA = [0.0 - 1884.6]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], LEGUMBRES_CEREALES (Cantidad en gramos) = [0.0 - 223.1]",
+       "Conclusion": "BEBIDAS_AGUA (Cantidad en gramos) = [0.0 - 1884.6]",
        "Support": 0.339280812517156,
        "Confidence": 0.825100133511348,
        "Lift": 1.32124825775026
       },
       {
-       "Premises": "LEGUMBRES_CEREALES = [0.0 - 223.1]",
-       "Conclusion": "BEBIDAS_AGUA = [0.0 - 1884.6]",
+       "Premises": "LEGUMBRES_CEREALES (Cantidad en gramos) = [0.0 - 223.1]",
+       "Conclusion": "BEBIDAS_AGUA (Cantidad en gramos) = [0.0 - 1884.6]",
        "Support": 0.352456766401317,
        "Confidence": 0.820971867007672,
        "Lift": 1.31463758747646
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], BEBIDAS_AGUA = [0.0 - 1884.6], ACEITES = [0.0 - 33.1]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 57.7]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], BEBIDAS_AGUA (Cantidad en gramos) = [0.0 - 1884.6], ACEITES (Cantidad en gramos) = [0.0 - 33.1]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 57.7]",
        "Support": 0.339829810595662,
        "Confidence": 0.83254875588433,
        "Lift": 1.14755017695293
       },
       {
-       "Premises": "BEBIDAS_AGUA = [0.0 - 1884.6], ACEITES = [0.0 - 33.1]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 57.7]",
+       "Premises": "BEBIDAS_AGUA (Cantidad en gramos) = [0.0 - 1884.6], ACEITES (Cantidad en gramos) = [0.0 - 33.1]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 57.7]",
        "Support": 0.353280263519077,
        "Confidence": 0.831395348837209,
        "Lift": 1.14596036920694
       },
       {
-       "Premises": "YOGUR_POSTRESdLECHE = [0.0 - 0.0], ACEITES = [0.0 - 33.1]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 57.7]",
+       "Premises": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 33.1]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 57.7]",
        "Support": 0.367005215481745,
        "Confidence": 0.828376703841387,
        "Lift": 1.14179959594936
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], YOGUR_POSTRESdLECHE = [0.0 - 0.0], ACEITES = [0.0 - 33.1]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 57.7]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 33.1]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 57.7]",
        "Support": 0.351358770244304,
        "Confidence": 0.827943078913324,
        "Lift": 1.1412019055926
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], ACEITES = [0.0 - 33.1]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 57.7]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 33.1]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 57.7]",
        "Support": 0.443041449354927,
        "Confidence": 0.823049464558898,
        "Lift": 1.13445675345746
       },
       {
-       "Premises": "ACEITES = [0.0 - 33.1]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 57.7]",
+       "Premises": "ACEITES (Cantidad en gramos) = [0.0 - 33.1]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 57.7]",
        "Support": 0.462530881141916,
        "Confidence": 0.82275390625,
        "Lift": 1.13404936831961
       },
       {
-       "Premises": "YOGUR_POSTRESdLECHE = [0.0 - 0.0], DULCES = [0.0 - 107.7]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 57.7]",
+       "Premises": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], DULCES (Cantidad en gramos) = [0.0 - 107.7]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 57.7]",
        "Support": 0.358770244304144,
        "Confidence": 0.819435736677116,
        "Lift": 1.12947574298703
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], GRASAS = [0.0 - 0.0], ACEITES = [0.0 - 33.1]",
-       "Conclusion": "OPCIONALES_MISCELANEOS = [0.0 - 57.7]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], GRASAS (Cantidad en gramos) = [0.0 - 0.0], ACEITES (Cantidad en gramos) = [0.0 - 33.1]",
+       "Conclusion": "OPCIONALES_MISCELANEOS (Cantidad en gramos) = [0.0 - 57.7]",
        "Support": 0.342300301948943,
        "Confidence": 0.819316688567674,
        "Lift": 1.12931165208173
@@ -431,71 +431,71 @@ export let datos=[
     "resultados":
     [
       {
-       "Premises": "YOGUR_POSTRESdLECHE = [0.0 - 0.0], HUEVOS = [0.0 - 0.0]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], GRASAS = [0.0 - 0.0]",
+       "Premises": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], HUEVOS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], GRASAS (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.409494535519125,
        "Confidence": 0.817314246762099,
        "Lift": 1.10433600116263
       },
       {
-       "Premises": "HUEVOS = [0.0 - 0.0]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], GRASAS = [0.0 - 0.0]",
+       "Premises": "HUEVOS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], GRASAS (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.500341530054644,
        "Confidence": 0.808052950910093,
        "Lift": 1.09182235360625
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], YOGUR_POSTRESdLECHE = [0.0 - 0.0], HUEVOS = [0.0 - 0.0]",
-       "Conclusion": "GRASAS = [0.0 - 0.0]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], HUEVOS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "GRASAS (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.409494535519125,
        "Confidence": 0.844366197183098,
        "Lift": 1.09104334746342
       },
       {
-       "Premises": "YOGUR_POSTRESdLECHE = [0.0 - 0.0], HUEVOS = [0.0 - 0.0]",
-       "Conclusion": "GRASAS = [0.0 - 0.0]",
+       "Premises": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], HUEVOS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "GRASAS (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.421106557377049,
        "Confidence": 0.840490797546012,
        "Lift": 1.08603577017419
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], HUEVOS = [0.0 - 0.0]",
-       "Conclusion": "GRASAS = [0.0 - 0.0]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], HUEVOS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "GRASAS (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.500341530054644,
        "Confidence": 0.837142857142857,
        "Lift": 1.08170974656411
       },
       {
-       "Premises": "HUEVOS = [0.0 - 0.0]",
-       "Conclusion": "GRASAS = [0.0 - 0.0]",
+       "Premises": "HUEVOS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "GRASAS (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.51639344262295,
        "Confidence": 0.833976833976834,
        "Lift": 1.07761878635665
       },
       {
-       "Premises": "GRASAS = [0.0 - 0.0], FRUTAS = [0.0 - 0.0]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], YOGUR_POSTRESdLECHE = [0.0 - 0.0]",
+       "Premises": "GRASAS (Cantidad en gramos) = [0.0 - 0.0], FRUTAS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.401639344262295,
        "Confidence": 0.817234190410007,
        "Lift": 1.0620779891347
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], YOGUR_POSTRESdLECHE = [0.0 - 0.0], FRUTAS = [0.0 - 0.0]",
-       "Conclusion": "GRASAS = [0.0 - 0.0]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], FRUTAS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "GRASAS (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.401639344262295,
        "Confidence": 0.820655966503838,
        "Lift": 1.06040629740654
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], FRUTAS = [0.0 - 0.0]",
-       "Conclusion": "GRASAS = [0.0 - 0.0]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], FRUTAS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "GRASAS (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.479508196721311,
        "Confidence": 0.818658892128279,
        "Lift": 1.05782578823989
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], QUESOS = [0.0 - 0.0]",
-       "Conclusion": "GRASAS = [0.0 - 0.0]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], QUESOS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "GRASAS (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.416325136612021,
        "Confidence": 0.818120805369127,
        "Lift": 1.05713050225984
@@ -507,71 +507,71 @@ export let datos=[
     "resultados":
     [
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], LECHE = [0.0 - 0.0]",
-       "Conclusion": "YOGUR_POSTRESdLECHE = [0.0 - 0.0]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], LECHE (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.338952438290186,
        "Confidence": 0.881064162754303,
        "Lift": 1.11204222973776
       },
       {
-       "Premises": "LECHE = [0.0 - 0.0]",
-       "Conclusion": "YOGUR_POSTRESdLECHE = [0.0 - 0.0]",
+       "Premises": "LECHE (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.356110776640577,
        "Confidence": 0.878247958426132,
        "Lift": 1.10848773476125
       },
       {
-       "Premises": "LECHE = [0.0 - 0.0]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], YOGUR_POSTRESdLECHE = [0.0 - 0.0]",
+       "Premises": "LECHE (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.338952438290186,
        "Confidence": 0.835931700074239,
        "Lift": 1.10768452638477
       },
       {
-       "Premises": "YOGUR_POSTRESdLECHE = [0.0 - 0.0], HUEVOS = [0.0 - 0.0]",
-       "Conclusion": "GRASAS = [0.0 - 0.0]",
+       "Premises": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], HUEVOS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "GRASAS (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.407585791691751,
        "Confidence": 0.813213213213213,
        "Lift": 1.0986150037797
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], YOGUR_POSTRESdLECHE = [0.0 - 0.0], HUEVOS = [0.0 - 0.0]",
-       "Conclusion": "GRASAS = [0.0 - 0.0]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0], HUEVOS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "GRASAS (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.394641782059,
        "Confidence": 0.812267657992565,
        "Lift": 1.09733760059019
       },
       {
-       "Premises": "FRUTAS = [0.0 - 0.0]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], YOGUR_POSTRESdLECHE = [0.0 - 0.0]",
+       "Premises": "FRUTAS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.449127031908488,
        "Confidence": 0.807359307359307,
        "Lift": 1.06982354170228
       },
       {
-       "Premises": "GRASAS = [0.0 - 0.0], FRUTAS = [0.0 - 0.0]",
-       "Conclusion": "PESCADOS = [0.0 - 0.0], YOGUR_POSTRESdLECHE = [0.0 - 0.0]",
+       "Premises": "GRASAS (Cantidad en gramos) = [0.0 - 0.0], FRUTAS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.350090307043949,
        "Confidence": 0.806518723994452,
        "Lift": 1.06870969330258
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], GRASAS = [0.0 - 0.0], FRUTAS = [0.0 - 0.0]",
-       "Conclusion": "YOGUR_POSTRESdLECHE = [0.0 - 0.0]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], GRASAS (Cantidad en gramos) = [0.0 - 0.0], FRUTAS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.350090307043949,
        "Confidence": 0.836690647482014,
        "Lift": 1.05603584002099
       },
       {
-       "Premises": "PESCADOS = [0.0 - 0.0], FRUTAS = [0.0 - 0.0]",
-       "Conclusion": "YOGUR_POSTRESdLECHE = [0.0 - 0.0]",
+       "Premises": "PESCADOS (Cantidad en gramos) = [0.0 - 0.0], FRUTAS (Cantidad en gramos) = [0.0 - 0.0]",
+       "Conclusion": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.449127031908488,
        "Confidence": 0.83538633818589,
        "Lift": 1.05438959553705
       },
       {
-       "Premises": "GRASAS = [0.0 - 0.0], DULCES = [0.0 - 103.8]",
-       "Conclusion": "YOGUR_POSTRESdLECHE = [0.0 - 0.0]",
+       "Premises": "GRASAS (Cantidad en gramos) = [0.0 - 0.0], DULCES (Cantidad en gramos) = [0.0 - 103.8]",
+       "Conclusion": "YOGUR_POSTRESdLECHE (Cantidad en gramos) = [0.0 - 0.0]",
        "Support": 0.33774834437086,
        "Confidence": 0.832962138084632,
        "Lift": 1.05132987185302
